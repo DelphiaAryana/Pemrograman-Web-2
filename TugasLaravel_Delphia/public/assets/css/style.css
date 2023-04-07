@@ -1,1 +1,113 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+.container-sidebar {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background-color: #d28584;
+    width: 260px;
+    padding: 24px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-left: 0%
+}
+
+.main-content {
+    background-color: #fbf6f6;
+    flex-grow: 1;
+}
+
+.sidebar .description-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #ffffff;
+    position: fixed;
+}
+
+.sidebar .header .list-item {
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.sidebar .header .list-item .icon {
+    margin-right: 12px;
+}
+
+.sidebar .header .ilustration {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px 0 22px 0;
+    box-sizing: border-box;
+}
+
+.sidebar .main .list-item .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sidebar .main .list-item .icon {
+    margin-right: 6px;
+}
+
+.sidebar .main .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 8px;
+    border-radius: 8px;
+    width: 212px;
+    box-sizing: border-box;
+    transition: all ease-in .2s;
+}
+
+.sidebar .main .list-item:hover {
+    background: #eccccc;
+    transition: all ease-in .2s;
+}
+
+.data{
+  margin: 10px;
+}
+
+.data p {
+  margin-left: 15px;
+}
+
+.container-product{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 20px;
+}
+
+.product {
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  padding: 5px;
+  background-color: #f0d8d8;
+}
+
+.text {
+    margin: 20px;
+}
 
