@@ -1,0 +1,83 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background-color: #111827;
+    width: 260px;
+    padding: 24px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.main-content {
+    background-color: #eeeeee;
+    flex-grow: 1;
+}
+
+.sidebar .description-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sidebar .header .list-item {
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.sidebar .header .list-item .icon {
+    margin-right: 12px;
+}
+
+.sidebar .header .ilustration {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px 0 22px 0;
+    box-sizing: border-box;
+}
+
+.sidebar .main .list-item .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sidebar .main .list-item .icon {
+    margin-right: 12px;
+}
+
+.sidebar .main .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    width: 212px;
+    box-sizing: border-box;
+    transition: all ease-in .2s;
+}
+
+.sidebar .main .list-item:hover {
+    background: #ff9900;
+    transition: all ease-in .2s;
+}
