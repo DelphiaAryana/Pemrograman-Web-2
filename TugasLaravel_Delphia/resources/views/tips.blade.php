@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 
   <!-- Link untuk menghubungkan ke CSS -->
-  <link href="{!! asset('assets/css/style.css') !!}" rel="stylesheet"crossorigin="anonymous">
+  <link href="{!! asset('assets/css/style.css') !!}" rel="stylesheet" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
   <!-- Font dari Google (Google Fonts) -->
@@ -60,8 +60,8 @@
     </div>
 
     <div class="main-content">
-      <nav class="contt navbar navbar-expand-lg bg-light">
-        <div class=" container-fluid">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -74,7 +74,7 @@
                     @endcan
                 </div>
             </div>
-            <div class="logg text-end d-flex align-items-center">
+            <div class="text-end d-flex align-items-center">
 
                 <div class="user me-3">
                     Halo, {{ Auth::user()->name }}
@@ -89,26 +89,21 @@
     <div class="container mt-3">
         <div class="row">
             <div class="col">
-                <h2>Selamat Datang, {{ Auth::user()->name }} </h2><br>
-
-                <h5>Kamu punya kulit wajah yang kering? Tenang, pasti ada solusinya kok!</h5><br>
-                <div style="text-align: center;">
-                  <img src="{!! asset('storage/app/images/KulitWajahKering.jpg') !!}" alt="" width="700px" height="400px" align="center">
+                <h2>Tips Merawat Kulit Kering</h2><br>
+                <div class="text">
+                  <p align="justify">Kulit yang terlihat kering dan kasar tentu mengganggu penampilan dan rasa percaya diri. Nah, ada berbagai cara merawat kulit kering yang dapat Anda coba lakukan. Dengan demikian, kulit sehat dan tampak lembut pun dapat Anda wujudkan.
+                    Kulit kering ditandai dengan permukaan kulit yang kasar, pecah-pecah, dan mudah terkelupas. Kondisi ini dapat disebabkan oleh berbagai hal, seperti paparan sinar matahari, kebiasaan mandi terlalu lama, hingga penggunaan produk perawatan kulit yang kurang tepat. 
+                    Tak hanya itu,  berbagai gangguan pada kulit juga dapat menyebabkan kulit menjadi kering, seperti eksim dan psoriasis. Terlepas dari apa pun penyebabnya, ada beberapa tips merawat kulit kering yang dapat Anda coba lakukan, yaitu:</p>
+                  <ul>
+                    <li>Hindari mandi dengan air yang terlalu panas</li>
+                    <li>Gunakan sabun berbahan lembut</li>
+                    <li>Gunakan tabir surya dan pelembap</li>
+                    <li>Lakukan perawatan di malam hari</li>
+                    <li>Lindungi kulit dari udara dingin</li>
+                    <li>Lakukan eksfoliasi</li>
+                    <li>Nutrisi kulit dari dalam</li>
+                  </ul>
                 </div>
-
-                <br><br>
-                
-                <p align="justify">Kulit kering (xerosis) adalah kondisi umum dengan banyak penyebab. 
-                  Kulit kering dapat menjadi gejala yang menunjukkan diagnosis yang lebih serius. 
-                  Akan tetapi, dalam kebanyakan kasus, kulit kering disebabkan oleh faktor lingkungan yang menghilangkan kelembapan dari kulit. 
-                  Misalnya saja, udara kering saat cuaca dingin dapat menyebabkan kelembapan kulit menghilang, sehingga kulit menjadi pecah dan retak-retak.
-                  Sayangnya, daerah kulit yang pecah atau merekah dan retak-retak itu kadang kala dapat mengalami iritasi dan terasa gatal. 
-                  Adapun ruam kulit kering kadang bahkan berupa bercak-bercak kulit berbentuk bundar yang menyerupai penyakit jamur kulit. 
-                  Kulit kering juga bisa dikarenakan kulit yang memang cenderung kering karena kekurangan minyak. 
-                  Namun, kurangnya asupan cairan, dehidrasi lantaran penyait, perawatan yang mengeringkan kulit (seperti pemakaian sabun antiseptik), 
-                  mandi denga air yang terlalu panas, serta suhu lingkungan yang tinggi dan kelembapan rendah, bisa menjadi faktor lain penyebab kulit kering.
-
-                  </p>
             </div>
         </div>
     </div>
